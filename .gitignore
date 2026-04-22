@@ -1,0 +1,25 @@
+# -- Python ------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+uv.lock
+.python-version
+
+# -- Virtual Environments ----------------------------------------------------------
+env/
+.env/
+venv/
+.venv/
+ENV/
+
+# -- Environment Variables ----------------------------------------------------------
+.cache
+.env
+.env.local
+.env.production
+
+# -- PyCharm ----------------------------------------------------------
+.idea/
+*.iml/
