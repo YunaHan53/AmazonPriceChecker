@@ -68,7 +68,7 @@ while True:
     # Checks time and runs program at 9:00 daily
     date_time = datetime.datetime.now()
     time_now = date_time.strftime("%H:%M")
-    if time_now == "17:42":
+    if time_now == "09:00":
         product_details = get_product_details(TARGET)
         title = product_details.split("=>")[0]
         price = product_details.split("=>")[1]
